@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://tecunhuman.com/"
 title = "TecunHuman"
 theme = "tecunhuman-hugo-theme"
 timeZone = "America/Chicago"
