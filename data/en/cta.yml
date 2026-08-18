@@ -1,0 +1,6 @@
+cta:
+  enable: true
+  bg_image: "images/backgrounds/footer-area.jpg"
+  bg_image_webp: "images/backgrounds/footer-area.webp"
+  title: "indiegamedev.org"
+  link: "#"

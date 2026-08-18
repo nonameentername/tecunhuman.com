@@ -1,0 +1,16 @@
+service:
+  enable: true
+  title: "Projects"
+  service_item:
+    - name: "Godot Audio Tools"
+      icon: "ti-volume"
+      content: "Open source audio tooling for Godot projects."
+      link: "https://github.com/nonameentername"
+    - name: "Games"
+      icon: "ti-game"
+      content: "Original indie game experiments and releases."
+      link: "https://nonameentername.itch.io/"
+    - name: "Music"
+      icon: "ti-music-alt"
+      content: "Music, sound design, and creative audio work."
+      link: "https://open.spotify.com/artist/2Ndy0UWMloA9j80uerR3gR?si=Fmha7nwuQS6-wtZzTxjQfw"

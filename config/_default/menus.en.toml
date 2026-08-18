@@ -1,0 +1,19 @@
+[[main]]
+name = "github"
+url = "https://github.com/nonameentername"
+weight = 1
+
+[[main]]
+name = "games"
+url = "https://nonameentername.itch.io/"
+weight = 2
+
+[[main]]
+name = "music"
+url = "https://open.spotify.com/artist/2Ndy0UWMloA9j80uerR3gR?si=Fmha7nwuQS6-wtZzTxjQfw"
+weight = 3
+
+[[main]]
+name = "patreon"
+url = "https://www.patreon.com/cw/tecunhuman"
+weight = 4

@@ -1,0 +1,94 @@
+baseURL = "/"
+title = "TecunHuman"
+theme = "tecunhuman-hugo-theme"
+timeZone = "America/Chicago"
+summaryLength = 15
+hasCJKLanguage = false
+
+[outputs]
+home = ["HTML", "RSS"]
+
+[taxonomies]
+
+[imaging]
+quality = 90
+resampleFilter = "lanczos"
+
+[caches]
+[caches.images]
+dir = ":resourceDir/_gen"
+maxAge = "720h"
+
+[caches.assets]
+dir = ":resourceDir/_gen"
+maxAge = "720h"
+
+[markup]
+[markup.goldmark.renderer]
+unsafe = true
+
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
+
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+
+[params]
+logo = "images/logo.png"
+description = "Indie games and open source tools."
+author = "TecunHuman"
+google_analytics_id = ""
+post_share = false
+copyright = "Copyright &copy; 2026 TecunHuman"
+
+[params.preloader]
+enable = false
+preloader = "images/logo.png"
+
+[params.cookies]
+enable = false
+expire_days = 2
+
+[params.map]
+enable = false
+
+[[params.social]]
+icon = "ti-world"
+link = "https://wernermendizabal.com"
+label = "Homepage"
+
+[[params.social]]
+icon = "ti-music"
+link = "https://open.spotify.com/artist/2Ndy0UWMloA9j80uerR3gR?si=Fmha7nwuQS6-wtZzTxjQfw"
+label = "Spotify"
+
+[[params.social]]
+icon = "ti-youtube"
+link = "https://www.youtube.com/@nonameentername"
+label = "YouTube"
+
+[[params.social]]
+icon = "ti-github"
+link = "https://github.com/nonameentername"
+label = "GitHub"
+
+[[params.social]]
+icon = "ti-instagram"
+link = "https://instagram.com/nonameentername"
+label = "Instagram"
+
+[[params.social]]
+icon = "ti-heart"
+link = "https://www.patreon.com/cw/tecunhuman"
+label = "Patreon"
+
+[[params.social]]
+icon = "ti-linkedin"
+link = "https://www.linkedin.com/in/werner-mendizabal/"
+label = "LinkedIn"

@@ -1,0 +1,3 @@
+[submodule "themes/tecunhuman-hugo-theme"]
+	path = themes/tecunhuman-hugo-theme
+	url = git@github.com:nonameentername/tecunhuman-hugo-theme.git
