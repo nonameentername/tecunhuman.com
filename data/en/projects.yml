@@ -1,7 +1,7 @@
-service:
+projects:
   enable: true
   title: "Projects"
-  service_item:
+  project_item:
     - name: "Godot Audio Tools"
       icon: "ti-volume"
       content: "Open source audio tooling for Godot projects."

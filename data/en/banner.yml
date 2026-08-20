@@ -8,4 +8,4 @@ banner:
   button:
     enable: true
     label: "View Projects"
-    link: "#services"
+    link: "#projects"
